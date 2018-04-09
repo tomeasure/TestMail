@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- QQ邮箱的smtp端口：465/587 -->
+<!-- 网易的smtp端口：25 -->
+
+
+<!-- <configure> -->
+    <!-- <mail> -->
+        <!-- <host>smtp.163.com</host> -->
+        <!-- <user>tomeasure</user> -->
+        <!-- <pass>Liu15830208453</pass> -->
+        <!-- <port>25</port> -->
+    <!-- </mail> -->
+    <!-- <sender>tomeasure@163.com</sender> -->
+    <!-- <receiver>957419821@qq.com</receiver> -->
+    <!-- <message> -->
+        <!-- <from>tomeasure</from> -->
+        <!-- <to>957419821</to> -->
+        <!-- <subject>This is a new mail.</subject> -->
+    <!-- </message> -->
+<!-- </configure> -->
+
+<configure>
+    <mail>
+        <host>smtp.exmail.qq.com</host>
+        <user>liushuai@cloudin.cn</user>
+        <pass>XZYMD62qnhEffhRk</pass>
+        <port>587</port>
+    </mail>
+    <sender>liushuai@cloudin.cn</sender>
+    <receiver>tomeasure@163.com</receiver>
+    <message>
+        <from>exmail</from>
+        <to>163</to>
+        <subject>This is a new mail.</subject>
+    </message>
+</configure>
