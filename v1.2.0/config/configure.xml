@@ -2,24 +2,37 @@
 <!-- QQ邮箱 smtp端口：465/587 -->
 <!-- 网  易 smtp端口：25      pop端口：110 -->
 <configure>
+    <!-- 发送端配置数据 -->
     <smtp>
         <mail>
+            <!-- 发件服务器 -->
             <host>smtp.exmail.qq.com</host>
+            <!-- 用户email -->
             <user>liushuai@cloudin.cn</user>
+            <!-- 授权码，并不是登录密码 -->
             <pass>xxxxxxxxxxxxxxxx</pass>
+            <!-- smtp端口 -->
             <port>587</port>
         </mail>
+        <!-- 发送者 -->
         <sender>liushuai@cloudin.cn</sender>
+        <!-- 接受者 -->
         <receiver>tomeasure@163.com</receiver>
         <message>
+            <!-- 用于邮件的message -->
             <from>exmail</from>
             <to>163</to>
         </message>
     </smtp>
+    <!-- 接收端配置数据 -->
     <pop>
+        <!-- 收件服务器 -->
         <host>pop.163.com</host>
+        <!-- 收件服务器端口 -->
         <port>110</port>
+        <!-- 接收方账户 -->
         <user>tomeasure@163.com</user>
+        <!-- 接收方账户授权码，并不是登录密码 -->
         <pass>xxxxxxxxxxxxxx</pass>
     </pop>
 </configure>
